@@ -1,6 +1,10 @@
 # Smart Garbage Management System
+![Smart Garbage Management System](system.png)
 
-# Problem Statement: Garbage Management and Collection in Cities, Town and Villages is a major concern and emerging problem in Smart City paradigm. Also lack of proper resource distribution in the process of Garbage collection is great risk to sanitation, cleanliness and health.
+
+# Problem Statement: 
+
+Garbage Management and Collection in Cities, Town and Villages is a major concern and emerging problem in Smart City paradigm. Also lack of proper resource distribution in the process of Garbage collection is great risk to sanitation, cleanliness and health.
 Theme: Internet of Things
 Technologies: LoRa, Smart Mesh, RF, WiFi
 
@@ -14,3 +18,9 @@ Benefits of using Smart Garbage Management System
 5.	Shortest garbage collection route algorithm calculates best possible route for collection of garbage bins.
 6.	Area-wise SMS/Push messages delivered to Municipal Corporation workers to optimise the manpower and energy consumption.
 7.	Garbage Reward program to dispense reward/offer coupons to local public based on amount of waste deposited in one time.
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/qVxlE1UcSpI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/OT1L4oTMYOY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+

@@ -8,7 +8,7 @@ Garbage Management and Collection in Cities, Town and Villages is a major concer
 Theme: Internet of Things
 Technologies: LoRa, Smart Mesh, RF, WiFi
 
-![Smart Garbage Management System Mobile App](pp-scrrenshot/Screenshot_20180321-064828.png)
+![Smart Garbage Management System Mobile App](app-scrrenshot/Screenshot_20180321-064828.png)
 
 # Proposed Solution:
 We propose a smart Wireless Garbage Bin equipped with LoRa RF and IoT technologies to solve this emerging issue in City/Town sanitation sector. Each Garbage Bin will be equipped with level and weight sensor along with GPS position information in case of any mobility. All data will be sent through LoRa/RF communication "Smart Mesh" link to central server where it can be made available through mobile app to Sanitation workers for quick response and effective collection and disposal of garbage. Efficient route calculation for garbage collector van is also proposed for minimising the efforts in collection.

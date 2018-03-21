@@ -1,0 +1,50 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-bkpune">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-calm ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left"  class="my-container">
+    <ion-header-bar class="bar-profile bar-clear" >
+
+    <div class="profile">
+       <img class="profile-picture" src="img/96.png" />
+        <h3 class="name">SmartBin</h3>
+    </div>
+
+    </ion-header-bar>
+    <ion-content class="animated rubberBand">
+      <ion-list>
+        <ion-item menu-close href="#/app/home" class="item transp ">
+          <span class="">Home</span>
+        </ion-item> 
+        <ion-item menu-close href="#/app/mapview" class="item transp">
+          <span class="">Garbage View</span>
+        </ion-item>
+        <ion-item menu-close href="#/app/frsearch" class="item transp">
+          <span class="">Search By Location</span>
+        </ion-item>  
+        <ion-item menu-close href="#/app/news" class="item transp">
+          <span class="">Nearest</span>
+        </ion-item> 
+        <ion-item menu-close href="#/app/events" class="item transp">
+          <span class="">Settings</span>
+        </ion-item> 
+        <ion-item menu-close href="#/app/contact" class="item transp">
+          <span class="">Contact</span>
+        </ion-item> 
+        <ion-item menu-close href="#/app/about" class="item transp">
+          <span class="">About</span>
+        </ion-item> 
+
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

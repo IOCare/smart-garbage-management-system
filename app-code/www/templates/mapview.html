@@ -1,0 +1,53 @@
+<ion-view view-title="Search" ng-init="Init()">
+  <ion-content>
+
+<!-- https://ngmap.github.io/#/!directions.html -->
+<div class="item item-body">
+<ion-card class="transparent-card" ng-show="bin.latitude==''?false:true">
+  <div style="height: 100%" map-lazy-load="https://maps.google.com/maps/api/js?key=AIzaSyD1noaQ8oMSvvBicnNrpNSMtaQs99C7L-M&libraries=places" center>
+    <ng-map center="{{bin[0].lat}},{{bin[0].lng}}" zoom="17" style="height:90%">
+
+        <directions
+          draggable="true"
+          panel="directions-panel"
+          travel-mode="DRIVING"
+          waypoints="{{wayPoints}}"
+          origin="{{position.lat}},{{position.lon}}"
+          destination="{{bin[0].lat}},{{bin[0].lng}}">
+        </directions>
+        <custom-marker id="end"
+          position="{{bin[0].lat}},{{bin[0].lng}}">
+          <div class="my1"> {{bin[0].level}} Center<br> {{bin[0].weight}}
+        </custom-marker>
+        <custom-marker id="start"
+
+          position="{{position.lat}},{{position.lon}}">
+          <div class="my1"> Your Location </div>
+
+        </custom-marker>
+
+
+    </ng-map>
+
+
+    <br>
+
+
+
+
+
+  </div>
+</ion-card>
+    <p style="padding:10px;text-align: center;">
+      <a target="_blank" href="https://www.google.com/maps/dir/?api=1&origin={{position.lat}},{{position.lon}}&destination={{bin[0].lat}},{{bin[0].lng}}&travelmode=driving" class="button button-positive"><i class="icon ion-map icon_custom"></i> Open in Maps</a><br><br>
+
+      Total Distance to {{bin[0].nodeid}} SmartBin is <br><span class="balanced">{{map.directionsRenderers[0].directions.routes[0].legs[0].distance.value / 1000}} km </span><br>from your current location</p>
+
+</div>
+<ul class="list">
+    <li class="item" ng-repeat="b in bin">
+    	{{b.id}} - NodeID: {{b.nodeid}}, Level: {{b.level}}, Weight:{{b.weight}}
+    </li>
+</ul>
+  </ion-content>
+</ion-view>

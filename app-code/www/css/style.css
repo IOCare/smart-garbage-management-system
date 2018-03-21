@@ -1,0 +1,365 @@
+/* Empty. Add your own CSS if you like */
+
+.scroll-content{
+    background: url("../img/bg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+}
+
+
+.back-button {
+  color: #FFF !important;
+}
+.bg-bg {
+  background-color: #ffffff;
+}
+.large_button {
+  line-height: 7vh !important;
+  width: 100%;
+  /*background-color : #00796b !important;*/
+}
+.large_button1 {
+  line-height: 7vh !important;
+  border-color: #d24f6e;
+  border-radius:0px 0px 0px 0px;
+  width: 100%;
+  background-color : #00796b !important;
+}
+.slider {
+  height: 100%;
+}
+.slider-slide {
+  padding-top: 80px;
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+iframe, object, embed {
+    max-width: 100%;
+}
+#logo {
+  margin: 30px 0px;
+}
+
+#list {
+  width: 170px;
+  margin: 30px auto;
+  font-size: 20px;
+}
+#list ol {
+  margin-top: 30px;
+}
+#list ol li {
+  text-align: left;
+  list-style: decimal;
+  margin: 10px 0px;
+}
+
+.incenter {
+  text-align: center;
+}
+
+/* Side Menu Profile */
+.my-container {
+    /*background-image:  url("../img/menu-bg.jpg");*/
+    background-color: #FFF;/*background-color: #26a69a;*/
+    background-repeat: repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+}
+
+.bar.bar-profile {
+/*background-image:  url("../img/menu-bg.jpg");*/
+background-color: #ffe065;
+    height: 170px;
+}
+
+.bar .profile {
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.bar.bar-calm {
+  background-color: #009688;
+}
+.bar.bar-bkpune {
+  background-color: #ffe065 ;
+}
+.bkpune-darkbg {
+  background-color: #444 ;
+}
+.tab-bkpune-yellow {
+  background-color: #efc33f ;
+}
+.tab-bkpune {
+  background-color: #efc33f !important;
+}
+.tabs-icon-top,
+.tabs-icon-top .tab,
+.tabs-icon-top .tab .nav-view-home {
+    color: #ffe065;
+}
+.item.transp {
+    background-color: #757575 ;
+    color: #FFF;
+}
+.transp .item-content {
+    background-color: transparent !important;
+    color: #FFF;
+}
+.app-logo{ max-width:100px; margin:auto; background-repeat:no-repeat;background-position:center;}
+.top-content { padding-top: 10vh;  text-align: center;   }
+.loginButton{ padding-bottom:2px;}
+.remvoeBP{ padding-bottom:120px;}
+.removePM{ margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px; }
+.hdrt {
+    background-color: transparent !important;
+    color: #fff;
+}
+.custom-dark{
+    background-color : #ff7465 !important;
+}
+.custom-tab{
+    background-color : #d24f6e !important;
+}
+  .foot {
+    position : absolute;
+    bottom : 410px;
+    height : 50px;
+    margin-top : 10px;
+  }
+  .foot1 {
+    position : absolute;
+    bottom : 160px;
+    height : 40px;
+    margin-top : 40px;
+  }
+
+
+
+.profile .name {
+    color: #FFF;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+.menu .has-header
+{
+    top: 169px;
+}
+/* Side Menu Profile end */
+
+.background-image {
+  /* In this example we are using a background-image. But the header element could be anything. 
+  background-image: url(https://ununsplash.imgix.net/photo-1421091242698-34f6ad7fc088?fit=crop&fm=jpg&h=650&q=75&w=950);*/
+  background-size: cover;
+  background-position: center;
+  /* The header must have a height: */
+  height: 50vw;
+}
+.transparent-card{
+    background-color: transparent;
+}
+
+      .custom-marker {
+      }
+      .custom-marker.my1 {
+        font-size: 1.5em;
+        padding: 10px;
+        background: #fff;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        border: #7F7F7F solid 1px;
+      }
+
+      .custom-marker.my1:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 7px 6px 0;
+        border-color: #fff transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-left: -6px;
+        bottom: -6px;
+        left: 50%;
+      }
+
+      .custom-marker.my1:before {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 7px 6px 0;
+        border-color: #7F7F7F transparent;
+        display: block;
+        width: 0;
+        z-index: 0;
+        margin-left: -6px;
+        bottom: -7px;
+        left: 50%;
+      }
+
+.trcard {
+
+    opacity: 0.7;
+  width: 100px;
+  height: 100px; 
+    margin:auto;
+    border-radius: 50%;
+    justify-content: center;
+  display: flex!important;
+  align-items: center!important;
+}
+
+.trcardt {
+    opacity: 1;
+}
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px; 
+  /* width and height can be anything, as long as they're equal */
+}
+/*label.item.item-input.lbl{margin-bottom:15px;}
+    h2.lbl{ color: #ff3607;font-size: 16px;font-weight: 500;}
+  .item.item-divider{color: #ff3607;}*/
+
+@media (min-width: 768px) {
+  body {
+    font-size: 3vh;
+  }
+  .large_button {
+    line-height: 12vh !important;
+    border-color: #d24f6e;
+    border-radius:4px 4px 4px 4px;
+    width: 100%;
+    font-size: 4vh;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+  .card {
+    line-height: 4vh !important;
+    border-radius:4px 4px 4px 4px;
+    font-size: 3vh !important;
+  }
+  .item-divider {
+    font-size: 3vh !important;
+  }
+  .item.item-text-wrap{
+    font-size: 3vh !important;
+  }  
+  .item{
+    font-size: 3vh !important;
+  } 
+  h4{
+    font-size: 3vh !important;
+  }   
+  h5{
+    font-size: 2vh !important;
+  } 
+  h2{
+    font-size: 3vh !important;
+  }   
+  .transp{
+    font-size: 3vh !important;
+    line-height: 6vh !important;
+  }
+  a.item.tabitem h2 {
+    font-size: 2vh !important;
+    line-height: 5vh !important;
+  } 
+.item-thumbnail-left,
+.item-thumbnail-left .item-content {
+  padding-top: 8px;
+  padding-left: 206px;
+  min-height: 200px; }
+  .item-thumbnail-left > img:first-child,
+  .item-thumbnail-left .item-image,
+  .item-thumbnail-left .item-content > img:first-child,
+  .item-thumbnail-left .item-content .item-image {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 180px;
+    max-height: 180px;
+    width: 100%;
+    height: 100%; }
+
+  .trcard {
+    width: 200px;
+    height: 200px; 
+      margin:auto;
+      border-radius: 50%;
+      justify-content: center;
+    display: flex!important;
+    align-items: center!important;
+  }
+
+  .trcardt {
+      opacity: 1;
+  }
+  .circle {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px; 
+    /* width and height can be anything, as long as they're equal */
+  }
+
+  .icon_custom {
+    font-size:50px !important;
+    padding:5px;
+      color: #ffffff;
+      margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    height: 32px;
+    font-size: 32px;
+
+  }
+  .tab-item .icon {
+    display: block;
+    margin: 0 auto;
+    height: 32px;
+    font-size: 32px; }
+  i.iocare_icon::before {
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -5px;
+    font-size: 26px;
+    color: #ffffff;
+  }
+
+ }
+
+.icon_custom {
+  padding:5px;
+    color: #ffffff;
+    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
+  height: 25px;
+  font-size: 25px;
+
+}

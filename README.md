@@ -19,6 +19,10 @@ Benefits of using Smart Garbage Management System
 6.	Area-wise SMS/Push messages delivered to Municipal Corporation workers to optimise the manpower and energy consumption.
 7.	Garbage Reward program to dispense reward/offer coupons to local public based on amount of waste deposited in one time.
 
+[![System Working](https://img.youtube.com/vi/OT1L4oTMYOY/0.jpg)](https://www.youtube.com/watch?v=OT1L4oTMYOY)
+
+[![Concepts](https://img.youtube.com/vi/OT1L4oTMYOY/0.jpg)](https://www.youtube.com/watch?v=OT1L4oTMYOY)
+
 <iframe width="853" height="480" src="https://www.youtube.com/embed/qVxlE1UcSpI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
